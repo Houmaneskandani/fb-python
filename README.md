@@ -35,12 +35,18 @@ ten status updates by his friends, in chronological order.
 ## Execution
 This program has been created on top of a network topology created in a file called 'finalTopol.py'. The topology consists of three clients connected to two switches which in turn are connected to a server. The topology is shown in the picture below:
 ![alt text](https://github.com/jthak002/fb-python/blob/master/topol.png)
+
 The mininet topology can be run within a mininet VM with an x-server(for rendering the gui) enabled. the command for running the topology is: 
 ```sudo mn --custom finalTopol.py --topo mytopo -x```
 If the file runs successfully we see the following output:
+
 ![alt text](https://github.com/jthak002/fb-python/blob/master/topol-exec.png)
+
 Also, a number of console windows will open for each node in the topology i.e. one for the server, one for EACH client and so on.
-![alt text](https://github.com/jthak002/fb-python/blob/master/topolWindow.png)
+
+
+![alt text](https://github.com/jthak002/fb-python/blob/master/topolWindows.png)
+
 
 ## Application Setup and Execution 
 open the 'src-server' directory in the host:s1 console window. execute the 'python server.py' file to start the execute the server side of the application.
