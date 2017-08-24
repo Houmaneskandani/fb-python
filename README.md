@@ -49,7 +49,8 @@ Also, a number of console windows will open for each node in the topology i.e. o
 
 
 ## Application Setup and Execution 
-open the 'src-server' directory in the host:s1 console window. execute the 'python server.py' file to start the execute the server side of the application.
+open the 'src-server' directory in the host:s1 console window. execute the 'python server.py' file to start the execution of the server side of the application.
+
 ![alt text](https://github.com/jthak002/fb-python/blob/master/server-py.png)
 Now switch to one of the three client windows and switch to 'src-client' directory and execute 'python client.py' to execute the client side of the facebook application. The client will ask for the username and password (for the purposes of the test the usernames and the passwords are the same and can be found in upass.txt). The login for the users can be found in the `upass.txt` file, and all the changes in the passwords will be reflected in that file. Once the correct credentials are entered, the user can login to the site and he/she will be presented with the menu of options.
 ![alt text](https://github.com/jthak002/fb-python/blob/master/client-py.png) 
